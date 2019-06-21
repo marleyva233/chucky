@@ -1,0 +1,16 @@
+#crossword {
+	height: 500px;
+	width: 500px;
+}
+h4 {
+	text-align: center;
+}
+#q1 {
+	background-image: url("img/squares.jpg");
+	background-repeat: repeat-x;
+	border: none;
+	height: 41px;
+	width: 150px;
+	color: #000;
+	z-index: 5;
+}
