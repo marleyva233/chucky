@@ -1,16 +1,53 @@
 #crossword {
-	height: 500px;
 	width: 500px;
+	height: 1500px;
+	/*background-color: black;*/
 }
 h4 {
 	text-align: center;
 }
-#q1 {
-	background-image: url("img/squares.jpg");
-	background-repeat: repeat-x;
+#q4 {
 	border: none;
-	height: 41px;
-	width: 150px;
 	color: #000;
-	z-index: 5;
+	position: relative;
+	top: 50px;
+	left: -100px;
+	display: inline-block;
+	text-align: left;
+}
+#q1{
+	position: relative;
+	top: 21px;
+	left: -15px;
+}
+#q1 input[type="text"],
+#q9 input[type="text"] {
+	display: block;
+	margin-bottom: 1%;
+}
+#q9 {
+	position: relative;
+	top: -239px;
+	left: 181px;
+	height: 1000px;
+}
+#q6 {
+	position: relative;
+	top: -1250px;
+	left: 281px;
+	height: 200px;
+}
+h6 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+input[type="text"] {
+	border: 1px solid #000;
+	/*background-color: transparent;*/
+	width: 20px;
+}
+#questions h6 {
+	display: block;
+	text-align: left;
 }
