@@ -1,5 +1,5 @@
 var answers = {
-	answer1: "fiffany",
+	answer1: "tiffany",
 	answer2: "goodguys",
 	answer3: "knife",
 	answer4: "serialkiller",
@@ -10,3 +10,13 @@ var answers = {
 	answer9: "artificialintelligence",
 	answer10: "blue"
 }
+function checkPuzzle() {
+	// check that the array matches the answers
+	// if they do not match highlight or  ouput a message
+}
+
+function returnWord(id){
+	return document.getElementById(id);
+	// gather input fields and their values then concat together and pass to an array
+}
+console.log(returnWord("q1").remove("div"));
