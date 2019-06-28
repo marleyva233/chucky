@@ -19,4 +19,3 @@ function returnWord(id){
 	return document.getElementById(id);
 	// gather input fields and their values then concat together and pass to an array
 }
-console.log(returnWord("q1").remove("div"));

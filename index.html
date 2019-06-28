@@ -11,13 +11,15 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<!-- my custom css -->
 		<link rel="stylesheet" href="css/main.css">
+		<!-- custom font -->
+		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container-fluid" id="puzzle">
 			<div class="row">
 				<div class="col-12">
 					<h4>Chucky Crossword Puzzle</h4>
-					<div id="questions">
+					<div id="questions" class="mx-auto">
 						<h6> 1. What is the name of Chucky's bride?</h6>
 						<h6>2. What is the brand that makes the Chucky dolls?</h6>
 						<h6>3. Chucky's favorite weapon.</h6>
@@ -28,8 +30,20 @@
 						<h6>8. The name of Chucky's son.</h6>
 						<h6>9. In the 2019 remake the Buddi doll has a new trait, what is it?</h6>
 						<h6>10. What is the color of Chucky's eyes?</h6>
+						<button class="btn btn-dark" onclick="checkPuzzle();">Click Here to Check Puzzle</button>
 					</div>
-					<div id="crossword" class="mx-auto bg-light">
+					<div id="crossword" class="mx-auto">
+						<div id="q1">
+							<h6>1</h6>
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+						</div>
+						<div id="q4">
 							<h6>4</h6>
 							<input type="text"  maxlength="1">
 							<input type="text"  maxlength="1">
@@ -44,39 +58,29 @@
 							<input type="text"  maxlength="1">
 							<input type="text"  maxlength="1">
 						</div>
-						<div id="q1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<h6>1</h6>
-						</div>
 						<div id="q9">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
-							<input type="text"  maxlength="1">
 							<h6>9</h6>
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
+							<input type="text"  maxlength="1">
 						</div>
 						<div id="q6">
 							<h6>6</h6>
@@ -142,8 +146,6 @@
 							<input type="text"  maxlength="1">
 							<input type="text"  maxlength="1">
 						</div>
-						<button class="btn btn-dark" onclick="checkPuzzle();">Click Here to Check Puzzle</button>
-						<div id="q4">
 					</div>
 				</div>
 			</div>
@@ -159,11 +161,3 @@
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
