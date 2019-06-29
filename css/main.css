@@ -7,7 +7,6 @@ body {
 	background-size: cover;
 }
 #puzzle {
-	/*position: relative;*/
 	padding-top: 5%;
 	text-align: center;
 	background-color: rgba(255, 255, 255, .8);
@@ -43,62 +42,51 @@ h6 {
 	position: absolute;
 	top: 20px;
 	left: 98px;
-	z-index: 11;
 }
 #q2 {
 	position: absolute;
 	top: 365px;
 	left: 158px;
-	z-index: 2;
 }
 #q3 {
 	position: absolute;
 	top: 265px;
 	left: 217px;
-	z-index: 29;
 }
 #q4 {
 	position: absolute;
 	top: 64px;
 	left: 20px;
-	z-index: 4;
 }
 #q5 {
 	position: absolute;
 	top: 206px;
 	left: 236px;
-	z-index: 55;
 }
 #q6 {
 	position: absolute;
 	top: 125px;
 	left: 197px;
-	height: 200px;
-	z-index: 6;
 }
 #q7 {
 	position: absolute;
 	top: 325px;
 	left: 99px;
-	z-index: 7;
 }
 #q8 {
 	position: absolute;
 	top: 368px;
 	left: 178px;
-	z-index: 8;
 }
 #q9 {
 	position: absolute;
 	top: 22px;
 	left: 256px;
-	z-index: 1;
 }
 #q10{
 	position: absolute;
 	top: 62px;
 	left: 314px;
-	z-index: 10;
 }
 #q1:hover,
 #q2:hover,
@@ -129,6 +117,5 @@ input[type="text"] {
 	display: block;
 }
 input[type="text"]:hover {
-	z-index: 999;
-	background-color: pink;
+	background-color: #f2b3b3;
 }
